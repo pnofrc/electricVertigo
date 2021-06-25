@@ -27,7 +27,7 @@ var coord = {
     "x4": [51.9384935,4.4440943], //DW
     "x5": [51.9411234,4.4422231], //PG
     "x6": [51.940813, 4.437955], //PG
-    "x7": [51.916006, 4.476677] //END
+    "x7": [] //END
 }
 
 var audioWhile = {
@@ -53,18 +53,18 @@ var audioWhileX = {
 
 var getSymb = {
   "x1":"Step on the marked spot on the given location and look towards the black and white pillar. What word appears? Enter it by tapping on the icon.", //DF
-  "x2":"Step on the marked spot on the given location and look towards the black and white pillar. What word appears? Enter it by tapping on the icon.", //DF
-  "x3":"Step on the marked spot on the given location and look towards the black and white pillar. What word appears? Enter it by tapping on the icon.", //DW
-  "x4":"Step on the marked spot on the given location and look towards the black and white pillar. What word appears? Enter it by tapping on the icon.", //DW
-  "x5":"Step on the marked spot on the given location and look towards the black and white pillar. What word appears? Enter it by tapping on the icon.", //PG
-  "x6":"Step on the marked spot on the given location and look towards the black and white pillar. What word appears? Enter it by tapping on the icon.", //PG
+  "x2":"There is a row of garden gnomes. On the right side of the row, there is a laid back animal. What is it?", //DF
+  "x3":"Look inside the library for the electric vertigo print, on it, you will find the codeword.", //DW
+  "x4":"What is the name of this windmill?", //DW
+  "x5":"What symbol is on the sticker?", //PG
+  "x6":"Look to the left. What animal has made its nest in great heights?", //PG
   "x7":""
 }
 
 var codeword = {
   "x1": 'FORWARD', //DF
   "x2": 'FROG', //DF
-  "x3": '', //DW
+  "x3": 'DREAM', //DW
   "x4": 'DE SPEELMAN', //DW
   "x5": 'HEART', //PG
   "x6": 'STORK', //PG
@@ -78,7 +78,7 @@ var title = {
     "x4":"Location 4", //DW
     "x5":"Location 5", //PG
     "x6":"Location 6", //PG
-    "x7":"FINAL" //END
+    "x7":"Time Window at Teilingerstraat 120, 3032 AW Rotterdam" //END
 }
 
 
@@ -89,18 +89,18 @@ var titleWhile = {
   "LatLng(51.928074, 4.476836)":"Location 4", //DW
   "LatLng(51.912516, 4.501322)":"Location 5", //PG
   "LatLng(51.928861, 4.480778)":"Location 6", //PG
-  "LatLng(51.916006, 4.476677)":"FINAL" //END
+  "LatLng()":"Time Window at Teilingerstraat 120, 3032 AW Rotterdam" //END
 }
 
 
 var audioQuest = {
-  "x1":"audio/audioQuest/DF1.mp3", //DF
-  "x2":"audio/audioQuest/DF2.mp3", //DF
-  "x3":"audio/audioQuest/DW1.mp3", //DW
-  "x4":"audio/audioQuest/DW2.mp3", //DW
-  "x5":"audio/audioQuest/PG1.mp3", //PG
-  "x6":"audio/audioQuest/PG2.mp3", //PG
-  "x7":"audio/outro.mp3"
+  "x1":"audio/audioQuest/location1.mp3", //DF
+  "x2":"audio/audioQuest/location2.mp3", //DF
+  "x3":"audio/audioQuest/location3.mp3", //DW
+  "x4":"audio/audioQuest/location4.mp3", //DW
+  "x5":"audio/audioQuest/location5.mp3", //PG
+  "x6":"audio/audioQuest/location6.mp3", //PG
+  "x7":""
 }
 
 var button = {
@@ -139,44 +139,44 @@ var newIcon = {
 
 
 var customX= {
-  "LatLng(51.914444, 4.470009)": 'worlds/Dragon_Fly/DragonFly.svg',
-  "LatLng(51.906289, 4.442124)": 'worlds/Dragon_Fly/DragonFly.svg',
-  "LatLng(51.906333, 4.492452)": "worlds/Dolphin_Waves/DolphinWaves.svg",
-  "LatLng(51.928074, 4.476836)": "worlds/Dolphin_Waves/DolphinWaves.svg",
-  "LatLng(51.928861, 4.480778)": "worlds/Project_Gecko/ProjectGecko.svg",
-  "LatLng(51.916006, 4.476677)": "worlds/Project_Gecko/ProjectGecko.svg",
+  "LatLng(51.914444, 4.470009)": '',
+  "LatLng(51.906289, 4.442124)": '',
+  "LatLng(51.906333, 4.492452)": "",
+  "LatLng(51.928074, 4.476836)": "",
+  "LatLng(51.928861, 4.480778)": "",
+  "LatLng(51.916006, 4.476677)": "",
 }
 
 
 
 var flexBck={
-  "x1": "linear-gradient(129deg, #1e1d9d,#6e66cf)", //DF
-  "x2": "linear-gradient(129deg, #1e1d9d,#6e66cf)",
-  "x3": "linear-gradient(129deg, #6e66cf,#fd729f)",//DW
-  "x4": "linear-gradient(129deg, #6e66cf,#fd729f)",
-  "x5": "linear-gradient(129deg, #4fe98d,#3a9b73)",//PG
-  "x6": "linear-gradient(129deg, #4fe98d,#3a9b73)",
-  "x7": "linear-gradient(129deg, #d0b580,#fcefc9)"
+  "x1": "#ff4500", //DF
+  "x2": "#ff4500",
+  "x3": "#ff4500",//DW
+  "x4": "#ff4500",
+  "x5": "#ff4500",//PG
+  "x6": "#ff4500",
+  "x7": "#ff4500"
 }
 
 var flexBckX={
-  "LatLng(51.914444, 4.470009)" : "linear-gradient(129deg, #1e1d9d,#6e66cf)",//DF
-  "LatLng(51.906289, 4.442124)": "linear-gradient(129deg, #1e1d9d,#6e66cf)",
-  "LatLng(51.906333, 4.492452)": "linear-gradient(129deg, #6e66cf,#fd729f)",//DW
-  "LatLng(51.928074, 4.476836)": "linear-gradient(129deg, #6e66cf,#fd729f)",
-  "LatLng(51.912516, 4.501322)": "linear-gradient(129deg, #4fe98d,#3a9b73)",//PG
-  "LatLng(51.928861, 4.480778)": "linear-gradient(129deg, #4fe98d,#3a9b73)",
-  "LatLng(51.916006, 4.476677)": "linear-gradient(129deg, #d0b580,#fcefc9)"
+  "LatLng(51.914444, 4.470009)" : "#ff4500",//DF
+  "LatLng(51.906289, 4.442124)": "#ff4500",
+  "LatLng(51.906333, 4.492452)": "#ff4500",//DW
+  "LatLng(51.928074, 4.476836)": "#ff4500",
+  "LatLng(51.912516, 4.501322)": "#ff4500",//PG
+  "LatLng(51.928861, 4.480778)": "#ff4500",
+  "LatLng()": "#ff4500"
 }
 
 
 var worldIcon= {
-  "x1": 'worlds/Dragon_Fly/DragonFly.svg',
-  "x2": 'worlds/Dragon_Fly/DragonFly.svg',
-  "x3": "worlds/Dolphin_Waves/DolphinWaves.svg",
-  "x4": "worlds/Dolphin_Waves/DolphinWaves.svg",
-  "x5": "worlds/Project_Gecko/ProjectGecko.svg",
-  "x6": "worlds/Project_Gecko/ProjectGecko.svg",
+  "x1": '',
+  "x2": '',
+  "x3": "",
+  "x4": "",
+  "x5": "",
+  "x6": "",
   "x7":""
 }
 
@@ -234,7 +234,7 @@ let current = currents[0]
 if (current === 'x7'){
   $( "#infoPlace" ).html(`<div class="flex"><h3>Last Location Info</h3><h1>${title[current]}</h1><br><p>${getSymb[current]}</p><button style='min-width: 100px;' onclick="$('#infoPlace').fadeOut()">Go!</button></div>`)
 } else {
-  $( "#infoPlace" ).html(`<div class="flex"><h3>Next Location Info</h3><h1>${title[current]}</h1><br><audio src="${audioWhileX[current]}" controls></audio><p>${getSymb[current]}</p><br><button style='min-width: 100px;' onclick="$('#infoPlace').fadeOut()">Go!</button></div>`)
+  $( "#infoPlace" ).html(`<div class="flex"><h3>Next Location Info</h3><h1>${title[current]}</h1><br><p>${getSymb[current]}</p><br><button style='min-width: 100px;' onclick="$('#infoPlace').fadeOut()">Go!</button></div>`)
 }
 $( ".flex" ).css("background", flexBck[current])
 $( "#infoPlace" ).fadeIn()
@@ -380,9 +380,9 @@ L.easyButton('fa-info-circle', function(btn, map){
 L.easyButton('fa-forward', function(btn, map){
   $( "#infoPlace" ).fadeIn()
   if (current == 'x7'){
-    $( "#infoPlace" ).html(`<div class="flex"><h3>Last Location Info</h3><h1>${title[current]}</h1><br><p>${getSymb[current]}</p><button style='min-width: 100px;' onclick="$('#infoPlace').fadeOut()">Close</button></div>`)
+    $( "#infoPlace" ).html(`<div class="flex"><h3>Last Location Info</h3><h1>${title[current]}</h1><br><p>Time Window at Teilingerstraat 120, 3032 AW Rotterdam${getSymb[current]}</p><button style='min-width: 100px;' onclick="$('#infoPlace').fadeOut()">Close</button></div>`)
   } else {
-    $( "#infoPlace" ).html(`<div class="flex"><h3>Next Location Info</h3><h1>${title[current]}</h1><br><audio src="${audioWhileX[current]}" controls></audio><p>${getSymb[current]}</p><br><button style='min-width: 100px;' onclick="$('#infoPlace').fadeOut()">Close</button></div>`)
+    $( "#infoPlace" ).html(`<div class="flex"><h3>Next Location Info</h3><h1>${title[current]}</h1><br><p>${getSymb[current]}</p><br><button style='min-width: 100px;' onclick="$('#infoPlace').fadeOut()">Close</button></div>`)
   }
   $( ".flex" ).css("background", flexBck[current])
 
